@@ -180,7 +180,6 @@ nav a:hover {
     align-items: center;
     max-width: 1226px;
     height: 462px;
-    
     margin: 150px auto;
 }
 
@@ -201,16 +200,16 @@ nav a:hover {
   height: 100%;
   background-color: rgb(250, 215, 185);
   
-  font-size: 1.5em;
-  line-height: 2em;
-  text-align: right;
+  
+ 
 }
 
 .welkomblokjeshouder {
     display: flex;
     min-width: 500px;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
    
 }
 
@@ -220,19 +219,96 @@ nav a:hover {
     background-color: rgb(250, 215, 185);
     height: 150px;
     
+    
 }
 
 .welkomtekst p {
-    padding: 5%;
-    min-width: 00px;
+    padding: 10%;
+    min-width: 400px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: right;
 }
 
 #welkomblokje2 {
-    background-color: black;
+    background-color: whitesmoke;
+    border-color: black;
+}
+
+#welkomblokje2:hover {
+    
+    border: 3px solid black;
 }
 
 #welkomblokje3 {
-    background-color: whitesmoke;
-    border: 5px inset black;
+    background-color: black;
+    border-color: black;
 }
 
+#welkomblokje3:hover {
+    background-color: rgb(250, 215, 185);
+}
+
+/* Projects */
+
+.projects {
+  max-width: 1226px;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+.projects h2 {
+    
+    font-size: 3rem;
+}
+
+.projectL {
+
+}
+
+.projecttron {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-center;
+    max-width: 1226px;
+    height: 500px;
+    background-color: rgb(250, 215, 185);
+    margin: 0px auto;
+}
+
+.projecttron h3 {
+    display: inline-flex;
+    background-color: whitesmoke;
+    margin-left: -50px;
+    border: 3px solid rgb(250, 215, 185);
+    font-size: 1.17em;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    padding: 20px;
+    margin-top: 100px;
+
+
+    margin-bottom: 500px;
+}
+
+
+.smallscontainer {
+    margin-right: -50px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.smallinfo {
+    display: inline-flex;
+    
+ 
+   
+    margin-top: 10px;
+   
+   
+}
