@@ -12,11 +12,12 @@ html {
 */
 
 body {
-    background-color: rgb(250, 215, 185);
+    background-color: whitesmoke;
     font-family: Helvetica, Arial, sans-serif;
    
 }
 
+/* Header Section */
 
 header {
   display: flex;
@@ -26,12 +27,12 @@ header {
   max-height: 80px;
   max-width: 1364px;
   margin: 40px auto;
-  background-color: whitesmoke;
+  
   
 }
 
 
-#txtLogo {
+.txtLogo {
     display: inline-flex;
     width: 100px;
     height: 100px;
@@ -60,5 +61,133 @@ nav a {
     color: black;
     margin-right: 16px;
     text-align: center;
+    border: 3px solid black;
+}
+
+nav a:hover {
+    background-color: rgb(250, 215, 185);
+    color: black;
+    border-color: rgb(250, 215, 185);
+}
+
+/* Main section */
+
+
+.jumbotron {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1226px;
+    height: 562px;
+    background-color: rgb(250, 215, 185);
+    margin: 0px auto;
+
+}
+
+.logoblock {
+    display:inline-flex;
+    width: 200px;
+    height: 200px;
+    font-size: 3rem;
+    
+}
+
+
+.introblock {
+    display:inline-flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    font-size: 1rem;
+    border: 5px solid black;
+    text-align: right;
+    
+}
+
+#ghost {
+    border: none;
+    background-color: rgb(250, 215, 185);
+    width: 0px;
+}
+
+#block2 {
+    margin-top: -200px;
+    text-align: left;
+    align-items: flex-start;
+    padding-right: 5px;
+}
+
+#block3 {
+    justify-content: flex-end;
+    margin-bottom: -200px;
+    align-items: flex-end;
+    padding-bottom: 0px;
+}
+
+.introblock p {
+    letter-spacing: 0.3em;
+    line-height: 2em;
     background-color: whitesmoke;
+    padding-right: 20px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    
+}
+
+.buttonarea {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    max-height: 80px;
+    margin-top: -50px;
+}
+
+
+
+.whitebutton {
+    border-radius: 25px;
+    padding: 1.5em;
+    background-color: whitesmoke;
+    color: black;
+    width: 300px;
+    border: 5px solid rgb(250, 215, 185);
+    transition: transform 0.5s;
+}
+
+.whitebutton:hover {
+  background-color: rgb(250, 215, 185);
+  border-color: whitesmoke;
+  transform: rotate(90deg); 
+}
+
+.whitebutton:active {
+  margin-top: -4px;
+  border-width: 1px;
+  transform: rotate(90deg); 
+}
+
+.whitebutton:visited {
+    transform: rotate(90deg); 
+}
+
+/* Welkom tekst */
+
+.welkom {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1226px;
+    height: 562px;
+    
+    margin: 150px auto;
+}
+
+
+.welkomtekst {
+  display: inline-flex;
+  max-width: 50%;
+  height: 100%;
+  background-color: rgb(250, 215, 185);
 }
