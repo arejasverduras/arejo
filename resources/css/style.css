@@ -1,6 +1,6 @@
 html {
     font-size: 16px;
-    box-sizing: border-box;
+    
 }
 
 /*
@@ -14,7 +14,7 @@ html {
 body {
     background-color: whitesmoke;
     font-family: Helvetica, Arial, sans-serif;
-   
+    box-sizing: border-box;
 }
 
 /* Header Section */
@@ -175,19 +175,64 @@ nav a:hover {
 
 .welkom {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     max-width: 1226px;
-    height: 562px;
+    height: 462px;
     
     margin: 150px auto;
 }
 
+.welkomTitel {
+    display: inline-flex;
+    max-width: 40%;
+    height: 100%;
+    margin-right: 5%;
+    font-size: 3em;
+    line-height: 1.5;
+}
+
 
 .welkomtekst {
-  display: inline-flex;
-  max-width: 50%;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
   height: 100%;
   background-color: rgb(250, 215, 185);
+  
+  font-size: 1.5em;
+  line-height: 2em;
+  text-align: right;
 }
+
+.welkomblokjeshouder {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+
+.welkomblokje {
+    display:inline-flex;
+    width: 150px;
+    background-color: rgb(250, 215, 185);
+    height: 150px;
+    
+}
+
+.welkomtekst p {
+    padding: 5%;
+    min-width: 00px;
+}
+
+#welkomblokje2 {
+    background-color: black;
+}
+
+#welkomblokje3 {
+    background-color: whitesmoke;
+    border: 5px inset black;
+}
+
